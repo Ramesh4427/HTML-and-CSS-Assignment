@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Photoes</title>
+    <style>
+        .photoes{
+          width: 100%;
+          height: 100%;
+            border: 5px outset gray;
+            display: flex;  
+            flex-direction: row;          
+        }
+        @media(max-width:500px){
+    .photoes{
+    flex-direction: column;
+    }
+}
+        img{
+            width: 300px;
+            display: flex;
+        }
+        .a, .b, .c, .d, .e, .f, .g, .h, .i, .j{
+            
+            /* border: 3px solid red; */
+            /* width:fit-content; */
+            margin: 10px;
+            display: flex;
+            }
+    </style>
+</head>
+<body>
+   <div class="photoes">
+    <div class="a"><img src="./1652692413154.jpg" alt=""></div>
+       <div class="c"><img src="./1646054339920.jpg" alt=""></div>
+       <div class="d"><img src="./1646054377526.jpg" alt=""></div>
+       <div class="e"><img src="./1646054464596.jpg" alt=""></div>
+       <div class="f"><img src="./1646079929185.jpg" alt=""></div>
+       <div class="g"><img src="./1647114578760.jpg" alt="">  </div>     
+   </div> 
+</body>
+</html>

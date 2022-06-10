@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    fieldset{
+        background-color: aqua;
+        width:70%
+    }
+    </style>
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <fieldset>      
+        <legend>Sign up </legend>
+    <form autocomplete="on">
+        <label for="username">User Name :</label><br>
+        <input required type="text" name="username" id="username"><br><br>
+        <label for="email">Email :</label><br>
+        <input required type="email" name="email" id="email"><br><br>
+        <label for="password">Pasword</label><br>
+        <input required type="password" name="password" id="passsword"><br><br>
+        <label for="phone">Phone :</label><br>
+        <input type="text" name="phone" id="phone" placeholder="Optional"><br><br>
+        <label for="dob">Date of Birth :</label><br>
+        <input required type="date" name="dob" id="dob"><br><br>
+        <input required type="checkbox" name="tos" id="tos" value="TOS">
+        <label for="tos">I have read all the "terms snd condition" for services and I firmly accept this.</label><br><br>
+        <input type="submit" id="submit" name="submit" value="Submit">
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+#first{
+    color: white;
+    margin-top: 4px;
+    /* margin-bottom: 0%; */
+    padding: 6px 6px 6px 6px ;
+    border: 1px double rgb(50, 195, 195);
+    border-radius: 10px;
+    background-color: rgb(118, 162, 232);
+    width: 48%;
+    margin-block-end: 0;
+}
+#Second{
+    color: white;
+    margin-block-start: 0;
+    border: 1px double aqua;
+    padding: 6px 6px 6px 6px ;
+    border-radius: 10px;
+    background-color: rgb(118, 162, 232);
+    width: 48%;
+    margin-block-end: 0;
+}
+#Third{
+    color: white;
+margin-block-start: 0;
+    padding: 6px 6px 6px 6px ;
+    border: 1px double aqua;
+    border-radius: 10px;
+    background-color: rgb(118, 162, 232);
+    width: 48%;
+}
+.main{
+ height: fit-content;
+ width: fit-content;
+    display: flexbox;
+    border: 2px solid gray;
+    padding-left: 800px;
+    padding-top: 5px;
+    /* align-content: flex-end; */
+}
